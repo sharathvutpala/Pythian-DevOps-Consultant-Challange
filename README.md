@@ -1,8 +1,9 @@
 # Pythian-DevOps-Consultant-Challenge
 
-### Apache Web Server provisioning using Ansible
 
 This repo contains solutions for problems discussed in https://github.com/gbaker-blackbirdit/DevOps-Consultant-Challenge. 
+
+### Apache Web Server provisioning using Ansible
 
 A Vagrantfile is used to configure the VM and Ansible is used to provision the VM with Apache Web Server.
 
