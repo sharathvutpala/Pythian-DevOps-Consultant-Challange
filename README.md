@@ -1,4 +1,4 @@
-# Pythian-DevOps-Consultant-Challange
+# Pythian-DevOps-Consultant-Challenge
 
 This repo contains solutions for problems discussed in https://github.com/gbaker-blackbirdit/DevOps-Consultant-Challenge. 
 
