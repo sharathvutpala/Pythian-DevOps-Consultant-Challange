@@ -6,10 +6,17 @@ A Vagrantfile is used to configure the VM and Ansible is used to provision the V
 
 ansible-playbook contains the necessary files needed to install and start Apache.
 
-script.sh is a shell script used to query http://checkip.dyndns.org. This script is copied to the /vagrant directory of the VM when we run "vagrant up", with the help of Vagrant Synced Folder concept.
+Bring up the new vagrant VM with vagrant up by using the following command and once the machine is up and ready, go to browser and check the Apache web page content on localhost on port 8010 ( Port 80 on Vagrant VM Forwarded to 8010 on host).
 
 ``` bash
-vagrant up
+vagrant up --provider=virtualbox
+```
+
+### Script to query http://checkip.dyndns.org
+
+script.sh is a shell script used to query http://checkip.dyndns.org. This script is copied to the /vagrant directory of the VM when we run "vagrant up", with the help of Vagrant Synced Folder concept. Run the script when the VM provisioned above is up and running
+
+``` bash
 cd /vagrant
 ./script.sh
 ```
