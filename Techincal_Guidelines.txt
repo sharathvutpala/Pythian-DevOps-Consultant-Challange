@@ -1,0 +1,4 @@
+Vagrant version, Provider used for testing are defined here.
+
+Vagrant version: 1.8.5
+Provider: VirtualBox
