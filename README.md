@@ -20,7 +20,7 @@ script.sh is a shell script used to query http://checkip.dyndns.org. This script
 cd /vagrant
 ./script.sh
 ```
-When we run the above script, a file called tmpfile is generated in the same /vagrant directory, and an entry is added to the file as below.
+When we run the above script, a file called ``` tmpfile ``` is generated in the same /vagrant directory, and an entry is added to the file as below.
 
 ```
 <datetimestamp> | <script output>
