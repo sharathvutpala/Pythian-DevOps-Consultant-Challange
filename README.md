@@ -1,6 +1,6 @@
 # Pythian-DevOps-Consultant-Challenge
 
-### Apache Web Server provision using Ansible
+### Apache Web Server provisioning using Ansible
 
 This repo contains solutions for problems discussed in https://github.com/gbaker-blackbirdit/DevOps-Consultant-Challenge. 
 
