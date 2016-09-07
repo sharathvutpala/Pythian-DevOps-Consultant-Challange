@@ -4,8 +4,6 @@
 
 - name: remove default page
   file: path=/var/www/html/index.html state=absent
-  notify: restart apache
 
 - name: copy new page
   template: src=index.html dest=/var/www/html/
-  notify: restart apache 
